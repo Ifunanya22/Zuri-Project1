@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(226, 225, 225);
+}
+
+main {
+  /* width: 50%;
+  margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.full-content{
+  display: flex;
+  width: 100%;
+}
+.first-content{
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+}
+.second-content{
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+}
+.third-content{
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+}
+
