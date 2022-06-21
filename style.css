@@ -15,6 +15,7 @@ main {
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  padding: 20em;
 }
 .full-content{
   display: flex;
@@ -32,4 +33,10 @@ main {
   background-color: hsl(179, 100%, 13%);
   padding: 2em;
 }
-
+.button{
+  padding:1em;
+  border-radius: 10px;
+  border: none;
+  border-width: 20%;
+  font-size: 12px;
+}
